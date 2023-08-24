@@ -28,7 +28,7 @@ app.use(express.json({limit:'10mb'}));
 app.use(
   cors({
     credentials: true,
-    origin: "https://vibe-connect.vercel.app",
+    
   })
 );
 app.use(morgan("common"));
